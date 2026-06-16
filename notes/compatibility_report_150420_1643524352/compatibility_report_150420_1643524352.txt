@@ -1,0 +1,1661 @@
+Converting GML script: ${project_dir}\scripts\view_center\view_center.gml
+Converted builtin - line 2: view_xview[0]=argument0-view_wview/2+lengthdir_x(argument2,current_time) -> __view_set( e__VW.XView, 0, argument0-view_wview/2+lengthdir_x(argument2,current_time) )
+Converted builtin - line 3: view_yview[0]=argument1-view_hview/2+lengthdir_y(argument2,current_time) -> __view_set( e__VW.YView, 0, argument1-view_hview/2+lengthdir_y(argument2,current_time) )
+Converted builtin - line 4: view_angle[0]=argument3 -> __view_set( e__VW.Angle, 0, argument3 )
+Converted description /// @description view_center(x,y,shake,angle)/// @param x
+/// @param y
+/// @param shake
+/// @param angle
+Converted builtin - line 6: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\camera_follow\camera_follow.gml
+Converted description /// @description camera_follow(object,shake)/// @param object
+/// @param shake
+
+Converting GML script: ${project_dir}\scripts\camera_watchme\camera_watchme.gml
+Converted description /// @description camera_watchme(shake)/// @param shake
+
+Converting GML script: ${project_dir}\scripts\view_zoom\view_zoom.gml
+Converted builtin - line 2: view_wview[0] = view_wport[0]*argument0 -> __view_set( e__VW.WView, 0, view_wport[0]*argument0 )
+Converted builtin - line 3: view_hview[0] = view_hport[0]*argument0 -> __view_set( e__VW.HView, 0, view_hport[0]*argument0 )
+Converted description /// @description view_zoom(1/zoom)/// @param 1/zoom
+Converted builtin - line 3: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 4: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\scripts\camera_target_step\camera_target_step.gml
+Converted description /// @description camera_target_step()
+
+Converting GML script: ${project_dir}\scripts\camera_target_add\camera_target_add.gml
+Converted description /// @description camera_target_add(instance ID, weighting)/// @param instance ID
+/// @param  weighting
+
+Converting GML script: ${project_dir}\scripts\camera_target_remove\camera_target_remove.gml
+Converted description /// @description camera_target_remove(instance ID)/// @param instance ID
+
+Converting GML script: ${project_dir}\scripts\camera_target_init\camera_target_init.gml
+Converted description /// @description camera_target_init()
+
+Converting GML script: ${project_dir}\scripts\camera_target_clear\camera_target_clear.gml
+Converted description /// @description camera_target_clear()
+
+Converting GML script: ${project_dir}\scripts\camera_target_draw\camera_target_draw.gml
+Converted description /// @description camera_target_draw()
+
+Converting GML script: ${project_dir}\scripts\selected_get_nearest\selected_get_nearest.gml
+Converted description /// @description selected_get_nearest(x,y)/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\camera_confine\camera_confine.gml
+Converted description /// @description camera_confine(x,y,radius)/// @param x
+/// @param y
+/// @param radius
+
+Converting GML script: ${project_dir}\scripts\pause\pause.gml
+Converted description /// @description pause()
+
+Converting GML script: ${project_dir}\scripts\screen_set_resolution\screen_set_resolution.gml
+Converted builtin - line 9: view_wview[argument2] = argument0 -> __view_set( e__VW.WView, argument2, argument0 )
+Converted builtin - line 10: view_hview[argument2] = argument1 -> __view_set( e__VW.HView, argument2, argument1 )
+Converted builtin - line 5: view_visible[argument2] = true -> __view_set( e__VW.Visible, argument2, true )
+Converted builtin - line 7: view_wport[argument2] = argument0 -> __view_set( e__VW.WPort, argument2, argument0 )
+Converted builtin - line 8: view_hport[argument2] = argument1 -> __view_set( e__VW.HPort, argument2, argument1 )
+Converted description /// @description screen_set_resolution(width,height,view #)/// @param width
+/// @param height
+/// @param view #
+
+Converting GML script: ${project_dir}\scripts\create\create.gml
+Converted description /// @description create(object)/// @param object
+
+Converting GML script: ${project_dir}\scripts\create_bullet\create_bullet.gml
+Converted description /// @description create_bullet(x,y,speed,direction,color,energy,trail,seeker,type,scale,target,lifespan,update speed)/// @param x
+/// @param y
+/// @param speed
+/// @param direction
+/// @param color
+/// @param energy
+/// @param trail
+/// @param seeker
+/// @param type
+/// @param scale
+/// @param target
+/// @param lifespan
+/// @param update speed
+
+Converting GML script: ${project_dir}\scripts\create_button_gui\create_button_gui.gml
+Converted description /// @description create_button_gui(x,y,target x,target y,width,target width,height,target height,sprite_alpha,target sprite_alpha,image_alpha,target image_alpha,loading bar %,target loading bar %,string label,click action #)/// @param x
+/// @param y
+/// @param target x
+/// @param target y
+/// @param width
+/// @param target width
+/// @param height
+/// @param target height
+/// @param sprite_alpha
+/// @param target sprite_alpha
+/// @param image_alpha
+/// @param target image_alpha
+/// @param loading bar %
+/// @param target loading bar %
+/// @param string label
+/// @param click action #
+
+Converting GML script: ${project_dir}\scripts\create_button_shipcreator\create_button_shipcreator.gml
+Converted description /// @description create_button_shipcreator(x,y,radius,color,action #,label,tutorial)/// @param x
+/// @param y
+/// @param radius
+/// @param color
+/// @param action #
+/// @param label
+/// @param tutorial
+
+Converting GML script: ${project_dir}\scripts\create_portal\create_portal.gml
+Converted description /// @description create_portal(x,y,object to create,scale,seconds to stay open,color)/// @param x
+/// @param y
+/// @param object to create
+/// @param scale
+/// @param seconds to stay open
+/// @param color
+
+Converting GML script: ${project_dir}\scripts\create_shield\create_shield.gml
+Converted description /// @description create_shield(x offset,y offset,rotation offset,layers,sections,inner radius,radius change,spacing,texture,regen rate,color,update_speed)/// @param x offset
+/// @param y offset
+/// @param rotation offset
+/// @param layers
+/// @param sections
+/// @param inner radius
+/// @param radius change
+/// @param spacing
+/// @param texture
+/// @param regen rate
+/// @param color
+/// @param update_speed
+
+Converting GML script: ${project_dir}\scripts\create_ship_point\create_ship_point.gml
+Converted description /// @description create_ship_point(x,y,radius,material,color)/// @param x
+/// @param y
+/// @param radius
+/// @param material
+/// @param color
+
+Converting GML script: ${project_dir}\scripts\create_shockwave\create_shockwave.gml
+Converted description /// @description create_shockwave(x,y,start radius,end radius,update speed,expansion rate %,spin,twist,color1,color2,color3,alpha)/// @param x
+/// @param y
+/// @param start radius
+/// @param end radius
+/// @param update speed
+/// @param expansion rate %
+/// @param spin
+/// @param twist
+/// @param color1
+/// @param color2
+/// @param color3
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\create_space_matter\create_space_matter.gml
+Converted description /// @description create_space_matter(radius,variance,spin,orbit radius,orbit angle)/// @param radius
+/// @param variance
+/// @param spin
+/// @param orbit radius
+/// @param orbit angle
+
+Converting GML script: ${project_dir}\scripts\create_trail\create_trail.gml
+Converted description /// @description create_trail(x offset,y offset,number of points, smooth path, update speed, number of segments, starting width, ending width, sprite, color, alpha,sword)/// @param x offset
+/// @param y offset
+/// @param number of points
+/// @param  smooth path
+/// @param  update speed
+/// @param  number of segments
+/// @param  starting width
+/// @param  ending width
+/// @param  sprite
+/// @param  color
+/// @param  alpha
+/// @param sword
+
+Converting GML script: ${project_dir}\scripts\draw_circle_ext\draw_circle_ext.gml
+Converted description /// @description draw_circle_ext(x,y,radius,# polygons,texture,texture_pixelwidth,texture_pixelheight,rotation,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param radius
+/// @param # polygons
+/// @param texture
+/// @param texture_pixelwidth
+/// @param texture_pixelheight
+/// @param rotation
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_polygon\draw_polygon.gml
+Converted description /// @description draw_polygon(x,y,radius,# sides,angle,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param radius
+/// @param # sides
+/// @param angle
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_polygon_outline\draw_polygon_outline.gml
+Converted description /// @description draw_polygon_outline(x,y,radius,# sides,angle,color,alpha)/// @param x
+/// @param y
+/// @param radius
+/// @param # sides
+/// @param angle
+/// @param color
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\draw_circle_shadow\draw_circle_shadow.gml
+Converted description /// @description draw_circle_shadow(x,y,radius,# polygons,color1,color2,alpha1,alpha2,angle)/// @param x
+/// @param y
+/// @param radius
+/// @param # polygons
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+/// @param angle
+
+Converting GML script: ${project_dir}\scripts\draw_path_circle\draw_path_circle.gml
+Converted description /// @description draw_path_circle(x,y,path,start,end,# polygons,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param path
+/// @param start
+/// @param end
+/// @param # polygons
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_path_circle_ext\draw_path_circle_ext.gml
+Converted description /// @description draw_path_circle_ext(x,y,path,start,end,# polygons,texture,texture_pixelwidth,texture_pixelheight,texture angle,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param path
+/// @param start
+/// @param end
+/// @param # polygons
+/// @param texture
+/// @param texture_pixelwidth
+/// @param texture_pixelheight
+/// @param texture angle
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_path_circle_shadowed\draw_path_circle_shadowed.gml
+Converted description /// @description draw_path_circle_shadowed(x,y,path,start,end,# polygons,color1,color2,alpha1,alpha2,angle)/// @param x
+/// @param y
+/// @param path
+/// @param start
+/// @param end
+/// @param # polygons
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+/// @param angle
+
+Converting GML script: ${project_dir}\scripts\draw_path_circle_points\draw_path_circle_points.gml
+Converted description /// @description draw_path_circle_points(path,x,y,color1,color2,alpha1,alpha2)/// @param path
+/// @param x
+/// @param y
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_dot\draw_dot.gml
+Converted description /// @description draw_dot(x,y,radius,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param radius
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_checkmark\draw_checkmark.gml
+Converted description /// @description draw_checkmark(x,y,scale)/// @param x
+/// @param y
+/// @param scale
+
+Converting GML script: ${project_dir}\scripts\draw_crescent\draw_crescent.gml
+Converted description /// @description draw_crescent(x,y,inner radius,outer radius,# polygons,color1,color2,alpha1,alpha2,angle)/// @param x
+/// @param y
+/// @param inner radius
+/// @param outer radius
+/// @param # polygons
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+/// @param angle
+
+Converting GML script: ${project_dir}\scripts\draw_preset\draw_preset.gml
+Converted description /// @description draw_preset(preset #)/// @param preset #
+
+Converting GML script: ${project_dir}\scripts\draw_radar_blip\draw_radar_blip.gml
+Converted builtin - line 9: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted description /// @description draw_radar_blip(x,y,maxradius,maxdistance,instance id,color,alpha,#polygon sides,boolean hollow,rotation)/// @param x
+/// @param y
+/// @param maxradius
+/// @param maxdistance
+/// @param instance id
+/// @param color
+/// @param alpha
+/// @param #polygon sides
+/// @param boolean hollow
+/// @param rotation
+
+Converting GML script: ${project_dir}\scripts\draw_radio_button\draw_radio_button.gml
+Converted description /// @description draw_radio_button(x,y,radius,selected)/// @param x
+/// @param y
+/// @param radius
+/// @param selected
+
+Converting GML script: ${project_dir}\scripts\draw_reset\draw_reset.gml
+Converted description /// @description draw_reset()
+
+Converting GML script: ${project_dir}\scripts\draw_reset_color\draw_reset_color.gml
+Converted description /// @description draw_reset_color()
+
+Converting GML script: ${project_dir}\scripts\draw_ship_grid\draw_ship_grid.gml
+Converted description /// @description draw_ship_grid(grid id,x,y,scale,angle,color,alpha,left weighting,right weighting,labels)/// @param grid id
+/// @param x
+/// @param y
+/// @param scale
+/// @param angle
+/// @param color
+/// @param alpha
+/// @param left weighting
+/// @param right weighting
+/// @param labels
+
+Converting GML script: ${project_dir}\scripts\draw_ship_list\draw_ship_list.gml
+Converted description /// @description draw_ship_list(list,x,y,alpha)/// @param list
+/// @param x
+/// @param y
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\draw_spectrum\draw_spectrum.gml
+Converted description /// @description draw_spectrum(x1,y1,width,height,hue1,hue2,alpha_top,alpha_bottom)/// @param x1
+/// @param y1
+/// @param width
+/// @param height
+/// @param hue1
+/// @param hue2
+/// @param alpha_top
+/// @param alpha_bottom
+
+Converting GML script: ${project_dir}\scripts\draw_spectrum_y\draw_spectrum_y.gml
+Converted description /// @description draw_spectrum_y(x1,y1,width,height,hue1,hue2,alpha_left,alpha_right)/// @param x1
+/// @param y1
+/// @param width
+/// @param height
+/// @param hue1
+/// @param hue2
+/// @param alpha_left
+/// @param alpha_right
+
+Converting GML script: ${project_dir}\scripts\draw_sprite_self\draw_sprite_self.gml
+Converted description /// @description draw_sprite_self(sprite)/// @param sprite
+
+Converting GML script: ${project_dir}\scripts\draw_hud_crosshairs\draw_hud_crosshairs.gml
+Converted description /// @description draw_hud_crosshairs(x,y,radius1,radius2,degrees thickness,sides,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param radius1
+/// @param radius2
+/// @param degrees thickness
+/// @param sides
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_hud_points\draw_hud_points.gml
+Converted description /// @description draw_hud_points(x,y,r,alpha)/// @param x
+/// @param y
+/// @param r
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\draw_hud_polygraph\draw_hud_polygraph.gml
+Converted description /// @description draw_hud_polygraph(x,y,radius,sides,rotation,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param radius
+/// @param sides
+/// @param rotation
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_hud_target\draw_hud_target.gml
+Converted description /// @description draw_hud_target()
+
+Converting GML script: ${project_dir}\scripts\image_scale\image_scale.gml
+Converted description /// @description image_scale(scale)/// @param scale
+
+Converting GML script: ${project_dir}\scripts\draw_lightning_color\draw_lightning_color.gml
+Converted description /// @description draw_lightning_color(path,segment length,width,color1,color2,alpha,fork path,attractive object, enable particles,weighting)/// @param path
+/// @param segment length
+/// @param width
+/// @param color1
+/// @param color2
+/// @param alpha
+/// @param fork path
+/// @param attractive object
+/// @param  enable particles
+/// @param weighting
+
+Converting GML script: ${project_dir}\scripts\draw_lightning_flat\draw_lightning_flat.gml
+Converted description /// @description draw_lightning_flat(path,segment length,segment width,color,alpha,fork path,attractive object,particles,weighting)/// @param path
+/// @param segment length
+/// @param segment width
+/// @param color
+/// @param alpha
+/// @param fork path
+/// @param attractive object
+/// @param particles
+/// @param weighting
+
+Converting GML script: ${project_dir}\scripts\draw_lightning_forked\draw_lightning_forked.gml
+Converted description /// @description draw_lightning_forked(x1,y1,x2,y2,segment length,color,angle tolerance,curl,attractive object)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param segment length
+/// @param color
+/// @param angle tolerance
+/// @param curl
+/// @param attractive object
+
+Converting GML script: ${project_dir}\scripts\draw_lightning_hue\draw_lightning_hue.gml
+Converted description /// @description draw_lightning_hue(path,segment length,width,hue1,hue2,alpha,fork path,attractive object, enable particles,weighting)/// @param path
+/// @param segment length
+/// @param width
+/// @param hue1
+/// @param hue2
+/// @param alpha
+/// @param fork path
+/// @param attractive object
+/// @param  enable particles
+/// @param weighting
+
+Converting GML script: ${project_dir}\scripts\draw_lightning_path\draw_lightning_path.gml
+Converted description /// @description draw_lightning_path(path,segment length,starting width,color,alpha,fork path,attractive object, enable particles,weighting)/// @param path
+/// @param segment length
+/// @param starting width
+/// @param color
+/// @param alpha
+/// @param fork path
+/// @param attractive object
+/// @param  enable particles
+/// @param weighting
+
+Converting GML script: ${project_dir}\scripts\draw_lightning_ring\draw_lightning_ring.gml
+Converted description /// @description draw_lightning_ring(x,y,path,start,end,# polygons,width,angle,color,alpha,fork path,attractive object, enable particles)/// @param x
+/// @param y
+/// @param path
+/// @param start
+/// @param end
+/// @param # polygons
+/// @param width
+/// @param angle
+/// @param color
+/// @param alpha
+/// @param fork path
+/// @param attractive object
+/// @param  enable particles
+
+Converting GML script: ${project_dir}\scripts\draw_lightning_simple\draw_lightning_simple.gml
+Converted description /// @description draw_lightning_simple(x1,y1,x2,y2,segment length,angle tolerance)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param segment length
+/// @param angle tolerance
+
+Converting GML script: ${project_dir}\scripts\draw_lightning_simple_lines\draw_lightning_simple_lines.gml
+Converted description /// @description draw_lightning_simple_lines(x1,y1,x2,y2,segment length,tolerance)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param segment length
+/// @param tolerance
+
+Converting GML script: ${project_dir}\scripts\draw_lightning_small\draw_lightning_small.gml
+Converted description /// @description draw_lightning_small(x1,y1,x2,y2,segment length,color,angle tolerance,curl)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param segment length
+/// @param color
+/// @param angle tolerance
+/// @param curl
+
+Converting GML script: ${project_dir}\scripts\draw_path_ext\draw_path_ext.gml
+Converted description /// @description draw_path_ext(x,y,path,start,end,# segments,width,color,alpha,weighting)/// @param x
+/// @param y
+/// @param path
+/// @param start
+/// @param end
+/// @param # segments
+/// @param width
+/// @param color
+/// @param alpha
+/// @param weighting
+
+Converting GML script: ${project_dir}\scripts\draw_path_gradient\draw_path_gradient.gml
+Converted description /// @description draw_path_gradient(x offset,y offset,path,segment length,width,color1,color2,alpha,weighting)/// @param x offset
+/// @param y offset
+/// @param path
+/// @param segment length
+/// @param width
+/// @param color1
+/// @param color2
+/// @param alpha
+/// @param weighting
+
+Converting GML script: ${project_dir}\scripts\draw_path_line\draw_path_line.gml
+Converted description /// @description draw_path_line(path,x,y)/// @param path
+/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\draw_path_points\draw_path_points.gml
+Converted description /// @description draw_path_points(path,x,y)/// @param path
+/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\draw_trail\draw_trail.gml
+Converted description /// @description draw_trail(path,texture,segments,starting width,ending width,color,alpha)/// @param path
+/// @param texture
+/// @param segments
+/// @param starting width
+/// @param ending width
+/// @param color
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\draw_trail_sword\draw_trail_sword.gml
+Converted description /// @description draw_trail_sword(path,texture,segments,starting width,ending width,color,alpha)/// @param path
+/// @param texture
+/// @param segments
+/// @param starting width
+/// @param ending width
+/// @param color
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\draw_magnify\draw_magnify.gml
+Converted description /// @description draw_magnify(x,y,radius,# polygons,texture,texture pixelwidth,texture pixelheight,pixels stretch,degrees twist)/// @param x
+/// @param y
+/// @param radius
+/// @param # polygons
+/// @param texture
+/// @param texture pixelwidth
+/// @param texture pixelheight
+/// @param pixels stretch
+/// @param degrees twist
+
+Converting GML script: ${project_dir}\scripts\draw_magnify_ext\draw_magnify_ext.gml
+Converted description /// @description draw_magnify_ext(x,y,radius,# polygons,texture,texture_pixelwidth,texture_pixelheight,pixels_stretch,degrees_twist,color1,color2,color3,alpha1,alpha2,alpha3)/// @param x
+/// @param y
+/// @param radius
+/// @param # polygons
+/// @param texture
+/// @param texture_pixelwidth
+/// @param texture_pixelheight
+/// @param pixels_stretch
+/// @param degrees_twist
+/// @param color1
+/// @param color2
+/// @param color3
+/// @param alpha1
+/// @param alpha2
+/// @param alpha3
+
+Converting GML script: ${project_dir}\scripts\draw_magnify_fast\draw_magnify_fast.gml
+Converted description /// @description draw_magnify_fast(x,y,radius,# polygons,texture,texture pixelwidth,texture pixelheight,pixels stretch,degrees twist)/// @param x
+/// @param y
+/// @param radius
+/// @param # polygons
+/// @param texture
+/// @param texture pixelwidth
+/// @param texture pixelheight
+/// @param pixels stretch
+/// @param degrees twist
+
+Converting GML script: ${project_dir}\scripts\draw_magnify_laser\draw_magnify_laser.gml
+Converted description /// @description draw_magnify_laser(x1,y1,x2,y2,width,texture,texture_pixel_width,texture_pixel_height,pixelstretch,cap,color1,color2,alpha1,alpha2)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param width
+/// @param texture
+/// @param texture_pixel_width
+/// @param texture_pixel_height
+/// @param pixelstretch
+/// @param cap
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_magnify_path\draw_magnify_path.gml
+Converted description /// @description draw_magnify_path(x offset,y offset,path,seglength,width,texture,texture_pixelwidth,texture_pixelheight,stretch %,color1,color2,alpha,weighting)/// @param x offset
+/// @param y offset
+/// @param path
+/// @param seglength
+/// @param width
+/// @param texture
+/// @param texture_pixelwidth
+/// @param texture_pixelheight
+/// @param stretch %
+/// @param color1
+/// @param color2
+/// @param alpha
+/// @param weighting
+
+Converting GML script: ${project_dir}\scripts\draw_magnify_path_circle\draw_magnify_path_circle.gml
+Converted description /// @description draw_magnify_path_circle(x,y,path,start,end,# polygons,texture,texture_pixelwidth,texture_pixelheight,stretch,twist,color,alpha)/// @param x
+/// @param y
+/// @param path
+/// @param start
+/// @param end
+/// @param # polygons
+/// @param texture
+/// @param texture_pixelwidth
+/// @param texture_pixelheight
+/// @param stretch
+/// @param twist
+/// @param color
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\draw_magnify_path_simple\draw_magnify_path_simple.gml
+Converted description /// @description draw_magnify_path_simple(x offset,y offset,path,seglength,width,texture,texture_pixelwidth,texture_pixelheight,stretch %,color1,color2,alpha,weighting)/// @param x offset
+/// @param y offset
+/// @param path
+/// @param seglength
+/// @param width
+/// @param texture
+/// @param texture_pixelwidth
+/// @param texture_pixelheight
+/// @param stretch %
+/// @param color1
+/// @param color2
+/// @param alpha
+/// @param weighting
+
+Converting GML script: ${project_dir}\scripts\make_color_star\make_color_star.gml
+Converted description /// @description make_color_star(red,blue)/// @param red
+/// @param blue
+
+Converting GML script: ${project_dir}\scripts\draw_ring\draw_ring.gml
+Converted description /// @description draw_ring(x,y,inner radius,outer radius,# polygons,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param inner radius
+/// @param outer radius
+/// @param # polygons
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_ring_ext\draw_ring_ext.gml
+Converted description /// @description draw_ring_ext(x,y,inner radius,outer radius,# polygons,angle1,angle2,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param inner radius
+/// @param outer radius
+/// @param # polygons
+/// @param angle1
+/// @param angle2
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_ring_shadowed\draw_ring_shadowed.gml
+Converted description /// @description draw_ring_shadowed(x,y,inner radius,outer radius,# polygons,color1,color2,alpha1,alpha2,angle)/// @param x
+/// @param y
+/// @param inner radius
+/// @param outer radius
+/// @param # polygons
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+/// @param angle
+
+Converting GML script: ${project_dir}\scripts\draw_ring_textured\draw_ring_textured.gml
+Converted description /// @description draw_ring_textured(x,y,inner radius,outer radius,# polygons,texture,texture_pixelwidth,texture_pixelheight,pixelstretch,degrees_rotation,degrees_twist,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param inner radius
+/// @param outer radius
+/// @param # polygons
+/// @param texture
+/// @param texture_pixelwidth
+/// @param texture_pixelheight
+/// @param pixelstretch
+/// @param degrees_rotation
+/// @param degrees_twist
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_planet\draw_planet.gml
+Converted description /// @description draw_planet(earth,water,ice,lava,air)/// @param earth
+/// @param water
+/// @param ice
+/// @param lava
+/// @param air
+
+Converting GML script: ${project_dir}\scripts\draw_planet_path\draw_planet_path.gml
+Converted description /// @description draw_planet_path(earth,water,ice,lava,air)/// @param earth
+/// @param water
+/// @param ice
+/// @param lava
+/// @param air
+
+Converting GML script: ${project_dir}\scripts\draw_star\draw_star.gml
+Converted description /// @description draw_star(x,y,radius1,radius2,sides,color1,color2,alpha1,alpha2)/// @param x
+/// @param y
+/// @param radius1
+/// @param radius2
+/// @param sides
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+
+Converting GML script: ${project_dir}\scripts\draw_star_small\draw_star_small.gml
+Converted description /// @description draw_star_small(x,y,r,color,alpha)/// @param x
+/// @param y
+/// @param r
+/// @param color
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\draw_path_sphere_ext\draw_path_sphere_ext.gml
+Converted description /// @description draw_path_sphere_ext(x,y,path,start,end,# polygons,texture,texture_pixelwidth,texture_pixelheight,stretch,twist,color,alpha)/// @param x
+/// @param y
+/// @param path
+/// @param start
+/// @param end
+/// @param # polygons
+/// @param texture
+/// @param texture_pixelwidth
+/// @param texture_pixelheight
+/// @param stretch
+/// @param twist
+/// @param color
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\draw_sphere_ext\draw_sphere_ext.gml
+Converted description /// @description draw_sphere_ext(x,y,radius,# polygons,texture,texture_pixelwidth,texture_pixelheight,pixelstretch,degrees_rotation,degrees_twist,color1,color2,color3,alpha1,alpha2,alpha3)/// @param x
+/// @param y
+/// @param radius
+/// @param # polygons
+/// @param texture
+/// @param texture_pixelwidth
+/// @param texture_pixelheight
+/// @param pixelstretch
+/// @param degrees_rotation
+/// @param degrees_twist
+/// @param color1
+/// @param color2
+/// @param color3
+/// @param alpha1
+/// @param alpha2
+/// @param alpha3
+
+Converting GML script: ${project_dir}\scripts\draw_text_blur\draw_text_blur.gml
+Converted description /// @description draw_text_blur(x,y,str,distance,angle,quantity)/// @param x
+/// @param y
+/// @param str
+/// @param distance
+/// @param angle
+/// @param quantity
+
+Converting GML script: ${project_dir}\scripts\effect_blocksparks\effect_blocksparks.gml
+Converted description /// @description create_blocksparks(x,y,dir,angle tolerance,dice sides,i,color,alpha)/// @param x
+/// @param y
+/// @param dir
+/// @param angle tolerance
+/// @param dice sides
+/// @param i
+/// @param color
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\effect_exclamation\effect_exclamation.gml
+Converted description /// @description effect_exclamation(x,y,string,scale,scale increase,spin)/// @param x
+/// @param y
+/// @param string
+/// @param scale
+/// @param scale increase
+/// @param spin
+
+Converting GML script: ${project_dir}\scripts\effect_explosion\effect_explosion.gml
+Converted description /// @description effect_explosion(x,y,radius,particle quantity)/// @param x
+/// @param y
+/// @param radius
+/// @param particle quantity
+
+Converting GML script: ${project_dir}\scripts\effect_lsparks\effect_lsparks.gml
+Converted description /// @description create_lsparks(x,y,dir,angle tolerance,dice sides,i,color,alpha)/// @param x
+/// @param y
+/// @param dir
+/// @param angle tolerance
+/// @param dice sides
+/// @param i
+/// @param color
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\effect_wave_end\effect_wave_end.gml
+Converted description /// @description scr_wave_end()
+
+Converting GML script: ${project_dir}\scripts\effect_wave_init\effect_wave_init.gml
+Converted description /// @description scr_wave_init()
+
+Converting GML script: ${project_dir}\scripts\effect_wave_step\effect_wave_step.gml
+Converted description /// @description scr_wave_step()
+
+Converting GML script: ${project_dir}\scripts\fire_die\fire_die.gml
+Converted description /// @description fire_die()
+
+Converting GML script: ${project_dir}\scripts\fire_enable\fire_enable.gml
+Converted description /// @description fire_enable()
+
+Converting GML script: ${project_dir}\scripts\fire_start\fire_start.gml
+Converted description /// @description fire_start(particle system,enable smoke)/// @param particle system
+/// @param enable smoke
+
+Converting GML script: ${project_dir}\scripts\fire_step\fire_step.gml
+Converted description /// @description fire_step(width,height)/// @param width
+/// @param height
+
+Converting GML script: ${project_dir}\scripts\create_effect_cloak\create_effect_cloak.gml
+Converted description /// @description create_effect_cloak(alpha mask sprite)/// @param alpha mask sprite
+
+Converting GML script: ${project_dir}\scripts\destroy_effect_cloak\destroy_effect_cloak.gml
+Converted description /// @description destroy_effect_cloak()
+
+Converting GML script: ${project_dir}\scripts\draw_begin_effect_cloak\draw_begin_effect_cloak.gml
+Converted description /// @description draw_begin_effect_cloak()
+
+Converting GML script: ${project_dir}\scripts\draw_effect_cloak\draw_effect_cloak.gml
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw_effect_cloak(x,y,sprite mask,camera zoom,distortion,layer spacing,color,alpha)/// @param x
+/// @param y
+/// @param sprite mask
+/// @param camera zoom
+/// @param distortion
+/// @param layer spacing
+/// @param color
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\scr_holyfinished\scr_holyfinished.gml
+Converted description /// @description scr_holyfinished(grid,row)/// @param grid
+/// @param row
+
+Converting GML script: ${project_dir}\scripts\scr_holygrid_preset\scr_holygrid_preset.gml
+Converted description /// @description scr_holyrid_preset(grid id, preset id)/// @param grid id
+/// @param  preset id
+
+Converting GML script: ${project_dir}\scripts\scr_holygrid_set\scr_holygrid_set.gml
+Converted description /// @description scr_holygrid_set(grid id,row index,value,targetvalue,rate,islinear,threshold,endaction)/// @param grid id
+/// @param row index
+/// @param value
+/// @param targetvalue
+/// @param rate
+/// @param islinear
+/// @param threshold
+/// @param endaction
+
+Converting GML script: ${project_dir}\scripts\math_adjust_grid_step\math_adjust_grid_step.gml
+Converted description /// @description math_adjust_grid_step(grid id,row to process first,row to process last)/// @param grid id
+/// @param row to process first
+/// @param row to process last
+
+Converting GML script: ${project_dir}\scripts\math_adjust_linear\math_adjust_linear.gml
+Converted description /// @description math_adjust_linear(current value, target value, adjustment percent)/// @param current value
+/// @param  target value
+/// @param  adjustment percent
+
+Converting GML script: ${project_dir}\scripts\math_adjust_diff\math_adjust_diff.gml
+Converted description /// @description math_adjust_diff(current value, target value, adjustment percent)/// @param current value
+/// @param  target value
+/// @param  adjustment percent
+
+Converting GML script: ${project_dir}\scripts\ds_grid_add_column\ds_grid_add_column.gml
+Converted description /// @description ds_grid_add_column(grid id, column #,value)/// @param grid id
+/// @param  column #
+/// @param value
+
+Converting GML script: ${project_dir}\scripts\ds_grid_string\ds_grid_string.gml
+Converted description /// @description ds_grid_string(grid_id,row1,column1,row2,column2)/// @param grid_id
+/// @param row1
+/// @param column1
+/// @param row2
+/// @param column2
+
+Converting GML script: ${project_dir}\scripts\grid_convert\grid_convert.gml
+Converted description /// @description ds_grid_convert(grid,string -> real,row1,column1,row2,column2)/// @param grid
+/// @param string -> real
+/// @param row1
+/// @param column1
+/// @param row2
+/// @param column2
+
+Converting GML script: ${project_dir}\scripts\import_csv\import_csv.gml
+Converted description /// @description import_csv(file path,ds_grid id)/// @param file path
+/// @param ds_grid id
+
+Converting GML script: ${project_dir}\scripts\inventory_add\inventory_add.gml
+Converted description /// @description inventory_add(string,value)/// @param string
+/// @param value
+
+Converting GML script: ${project_dir}\scripts\inventory_create\inventory_create.gml
+Converted description /// @description inventory_create()
+
+Converting GML script: ${project_dir}\scripts\inventory_destroy\inventory_destroy.gml
+Converted description /// @description inventory_destroy()
+
+Converting GML script: ${project_dir}\scripts\inventory_remove\inventory_remove.gml
+Converted description /// @description inventory_remove_item(string)/// @param string
+
+Converting GML script: ${project_dir}\scripts\load_grid_elements\load_grid_elements.gml
+Converted description /// @description load_grid_elements(columns,rows,file path)/// @param columns
+/// @param rows
+/// @param file path
+
+Converting GML script: ${project_dir}\scripts\load_globals\load_globals.gml
+Converted description /// @description load_globals()
+
+Converting GML script: ${project_dir}\scripts\load_particles_air\load_particles_air.gml
+Converted description /// @description load_particles_air()
+
+Converting GML script: ${project_dir}\scripts\load_particles_all\load_particles_all.gml
+Converted description /// @description load_particles_all()
+
+Converting GML script: ${project_dir}\scripts\load_particles_earth\load_particles_earth.gml
+Converted description /// @description load_particles_earth()
+
+Converting GML script: ${project_dir}\scripts\load_particles_fire\load_particles_fire.gml
+Converted description /// @description load_particles_fire()
+
+Converting GML script: ${project_dir}\scripts\load_particles_water\load_particles_water.gml
+Converted description /// @description load_particles_water()
+
+Converting GML script: ${project_dir}\scripts\load_textures\load_textures.gml
+Converted description /// @description load_textures()
+
+Converting GML script: ${project_dir}\scripts\math_ycentroid_path\math_ycentroid_path.gml
+Converted description /// @description math_ycentroid_path(path)/// @param path
+
+Converting GML script: ${project_dir}\scripts\math_centroid_grid\math_centroid_grid.gml
+Converted description /// @description math_centroid_grid(grid,column)/// @param grid
+/// @param column
+
+Converting GML script: ${project_dir}\scripts\math_xcentroid_path\math_xcentroid_path.gml
+Converted description /// @description math_xcentroid_path(path)/// @param path
+
+Converting GML script: ${project_dir}\scripts\math_astrogravity\math_astrogravity.gml
+Converted description /// @description math_astrogravity(other object,force multiplier,maximum distance)/// @param other object
+/// @param force multiplier
+/// @param maximum distance
+
+Converting GML script: ${project_dir}\scripts\math_astrogravity_ext\math_astrogravity_ext.gml
+Converted description /// @description math_astrogravity_ext(other object,force multiplier,maximum distance,magnitude)/// @param other object
+/// @param force multiplier
+/// @param maximum distance
+/// @param magnitude
+
+Converting GML script: ${project_dir}\scripts\math_centripetal_accel\math_centripetal_accel.gml
+Converted description /// @description math_centripetal_accel(velocity,orbit radius)/// @param velocity
+/// @param orbit radius
+
+Converting GML script: ${project_dir}\scripts\math_disperse\math_disperse.gml
+Converted description /// @description math_disperse(other object,percent,max distance)/// @param other object
+/// @param percent
+/// @param max distance
+
+Converting GML script: ${project_dir}\scripts\math_fade\math_fade.gml
+Converted description /// @description math_fade(input,max input,value)/// @param input
+/// @param max input
+/// @param value
+
+Converting GML script: ${project_dir}\scripts\math_get_volume\math_get_volume.gml
+Converted description /// @description math_get_volume(length,width,shape)/// @param length
+/// @param width
+/// @param shape
+
+Converting GML script: ${project_dir}\scripts\math_gravity\math_gravity.gml
+Converted description /// @description math_gravity(mass,radius,multiplier)/// @param mass
+/// @param radius
+/// @param multiplier
+
+Converting GML script: ${project_dir}\scripts\math_magnitude\math_magnitude.gml
+Converted description /// @description math_magnitude(value1,value2)/// @param value1
+/// @param value2
+
+Converting GML script: ${project_dir}\scripts\math_orbit\math_orbit.gml
+Converted description /// @description math_orbit(x,y,radius,angle)/// @param x
+/// @param y
+/// @param radius
+/// @param angle
+
+Converting GML script: ${project_dir}\scripts\math_orbit_radius\math_orbit_radius.gml
+Converted description /// @description math_orbit_radius(orbit_angle,moment,mass,eccentricity,eccentricity angle)/// @param orbit_angle
+/// @param moment
+/// @param mass
+/// @param eccentricity
+/// @param eccentricity angle
+
+Converting GML script: ${project_dir}\scripts\math_orbital_velocity\math_orbital_velocity.gml
+Converted description /// @description math_orbital_velocity(mass,orbit radius)/// @param mass
+/// @param orbit radius
+
+Converting GML script: ${project_dir}\scripts\math_photon_energy\math_photon_energy.gml
+Converted description /// @description math_photon_energy(color)//calculates the energy of a photon (ranging between 1/2 and 2/7)/// @param color
+
+Converting GML script: ${project_dir}\scripts\math_rotate\math_rotate.gml
+Converted description /// @description math_rotate(xtarget,ytarget,percent rotation)/// @param xtarget
+/// @param ytarget
+/// @param percent rotation
+
+Converting GML script: ${project_dir}\scripts\math_space_temperature\math_space_temperature.gml
+Converted description /// @description math_space_temperature(star luminosity,orbit radius,absorption/emission ratio)/// @param star luminosity
+/// @param orbit radius
+/// @param absorption/emission ratio
+
+Converting GML script: ${project_dir}\scripts\math_turn\math_turn.gml
+Converted description /// @description math_turn(xtarget,ytarget,percent rotation)/// @param xtarget
+/// @param ytarget
+/// @param percent rotation
+
+Converting GML script: ${project_dir}\scripts\path_in_rectangle\path_in_rectangle.gml
+Converted description /// @description path_in_rectangle(x1,y1,x2,y2,path,path x,path y)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param path
+/// @param path x
+/// @param path y
+
+Converting GML script: ${project_dir}\scripts\tolerance\tolerance.gml
+Converted description /// @description tolerance(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\object_get_material\object_get_material.gml
+Converted description /// @description object_get_material(instance ID)/// @param instance ID
+
+Converting GML script: ${project_dir}\scripts\object_set_material\object_set_material.gml
+Converted description /// @description object_set_material(organic,metallic,ectenic)/// @param organic
+/// @param metallic
+/// @param ectenic
+
+Converting GML script: ${project_dir}\scripts\path_circle_break\path_circle_break.gml
+Converted description /// @description path_circle_break(path,seglength,tolerance,curl)/// @param path
+/// @param seglength
+/// @param tolerance
+/// @param curl
+
+Converting GML script: ${project_dir}\scripts\path_circle_point_push\path_circle_point_push.gml
+Converted description /// @description path_circle_point_push(path,point id,length,direction)/// @param path
+/// @param point id
+/// @param length
+/// @param direction
+
+Converting GML script: ${project_dir}\scripts\path_interpolate\path_interpolate.gml
+Converted description /// @description path_interpolate(input path1,input path2,segments,weighting,output path)/// @param input path1
+/// @param input path2
+/// @param segments
+/// @param weighting
+/// @param output path
+
+Converting GML script: ${project_dir}\scripts\path_orbit\path_orbit.gml
+Converted description /// @description path_orbit(x,y,path,semilatus,moment,mass,eccentricity,eccentricity angle,energy)/// @param x
+/// @param y
+/// @param path
+/// @param semilatus
+/// @param moment
+/// @param mass
+/// @param eccentricity
+/// @param eccentricity angle
+/// @param energy
+
+Converting GML script: ${project_dir}\scripts\path_point_closest\path_point_closest.gml
+Converted description /// @description path_point_closest(path,path x,path y,x,y)/// @param path
+/// @param path x
+/// @param path y
+/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\path_point_farthest\path_point_farthest.gml
+Converted description /// @description path_point_farthest(path,path x,path y,x,y)/// @param path
+/// @param path x
+/// @param path y
+/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\path_point_push\path_point_push.gml
+Converted description /// @description path_point_push(path,point id,length,direction)/// @param path
+/// @param point id
+/// @param length
+/// @param direction
+
+Converting GML script: ${project_dir}\scripts\path_random\path_random.gml
+Converted description /// @description path_random(x1,y1,x2,y2,path,segment length,tolerance,curl)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param path
+/// @param segment length
+/// @param tolerance
+/// @param curl
+
+Converting GML script: ${project_dir}\scripts\path_random_circle\path_random_circle.gml
+Converted description /// @description path_random_circle(path,x,y,r1,r2,angle,segments,xscale,yscale)/// @param path
+/// @param x
+/// @param y
+/// @param r1
+/// @param r2
+/// @param angle
+/// @param segments
+/// @param xscale
+/// @param yscale
+
+Converting GML script: ${project_dir}\scripts\trail_path_create\trail_path_create.gml
+Converted description /// @description trail_path_create(number of points,smooth)/// @param number of points
+/// @param smooth
+
+Converting GML script: ${project_dir}\scripts\trail_path_destroy\trail_path_destroy.gml
+Converted description /// @description trail_path_destroy()
+
+Converting GML script: ${project_dir}\scripts\trail_path_update\trail_path_update.gml
+Converted description /// @description trail_path_update(x,y,speed)/// @param x
+/// @param y
+/// @param speed
+
+Converting GML script: ${project_dir}\scripts\random_color\random_color.gml
+Converted description /// @description random_color()
+
+Converting GML script: ${project_dir}\scripts\random_color_star\random_color_star.gml
+Converted description /// @description random_color_star()
+
+Converting GML script: ${project_dir}\scripts\random_decrease\random_decrease.gml
+Converted description /// @description random_decrease(max value,percent max reduction)/// @param max value
+/// @param percent max reduction
+
+Converting GML script: ${project_dir}\scripts\random_halton\random_halton.gml
+Converted description /// @description random_halton(seed,prime number,max value)/// @param seed
+/// @param prime number
+/// @param max value
+
+Converting GML script: ${project_dir}\scripts\random_increase\random_increase.gml
+Converted description /// @description random_increase(min value,percent max increase)/// @param min value
+/// @param percent max increase
+
+Converting GML script: ${project_dir}\scripts\random_normal\random_normal.gml
+Converted description /// @description random_normal(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\random_squared\random_squared.gml
+Converted description /// @description random_squared(max value)/// @param max value
+
+Converting GML script: ${project_dir}\scripts\rock_break\rock_break.gml
+Converted description /// @description rock_break(number,radius,variance,speed,direction,spin)/// @param number
+/// @param radius
+/// @param variance
+/// @param speed
+/// @param direction
+/// @param spin
+
+Converting GML script: ${project_dir}\scripts\rock_sprite_create\rock_sprite_create.gml
+Converted description /// @description rock_sprite_create(path,radius,# polygons,color1,color2,alpha)/// @param path
+/// @param radius
+/// @param # polygons
+/// @param color1
+/// @param color2
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\damage_shield\damage_shield.gml
+Converted description /// @description damage_shield(shield instance id, damage percent)/// @param shield instance id
+/// @param  damage percent
+
+Converting GML script: ${project_dir}\scripts\ship_add_point_1\ship_add_point_1.gml
+Converted description /// @description ship_add_point_1(ds_grid id,grid row #,x,y,color,type)/// @param ds_grid id
+/// @param grid row #
+/// @param x
+/// @param y
+/// @param color
+/// @param type
+
+Converting GML script: ${project_dir}\scripts\ship_add_point_2\ship_add_point_2.gml
+Converted description /// @description ship_add_point_2(ds_grid id,grid row #,delta x,delta y,color)/// @param ds_grid id
+/// @param grid row #
+/// @param delta x
+/// @param delta y
+/// @param color
+
+Converting GML script: ${project_dir}\scripts\ship_creator_next\ship_creator_next.gml
+Converted description /// @description ship_creator_next()
+
+Converting GML script: ${project_dir}\scripts\ship_creator_prev\ship_creator_prev.gml
+Converted description /// @description ship_creator_prev()
+
+Converting GML script: ${project_dir}\scripts\ship_grid_load\ship_grid_load.gml
+Converted description /// @description ship_grid_load()
+
+Converting GML script: ${project_dir}\scripts\ship_grid_save\ship_grid_save.gml
+Converted description /// @description ship_grid_save()
+
+Converting GML script: ${project_dir}\scripts\ship_grid_scale\ship_grid_scale.gml
+Converted builtin - line 10: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted description /// @description ship_grid_scale(ds_grid)/// @param ds_grid
+
+Converting GML script: ${project_dir}\scripts\ship_list_import_1\ship_list_import_1.gml
+Converted description /// @description ship_list_import_1(ds_list,ds_grid)/// @param ds_list
+/// @param ds_grid
+
+Converting GML script: ${project_dir}\scripts\ship_list_import_2\ship_list_import_2.gml
+Converted description /// @description ship_list_import_2(ds_list,ds_grid)/// @param ds_list
+/// @param ds_grid
+
+Converting GML script: ${project_dir}\scripts\ship_list_recall_1\ship_list_recall_1.gml
+Converted description /// @description ship_list_recall_1(list id,grid id)/// @param list id
+/// @param grid id
+
+Converting GML script: ${project_dir}\scripts\ship_set_type\ship_set_type.gml
+Converted description /// @description ship_set_type(type)/// @param type
+
+Converting GML script: ${project_dir}\scripts\ship_set_visibility\ship_set_visibility.gml
+Converted description /// @description ship_set_visiblity(visibility)/// @param visibility
+
+Converting GML script: ${project_dir}\scripts\ship_set_weapon\ship_set_weapon.gml
+Converted description /// @description ship_set_weapon(slot number,type,recoil,efficiency)/// @param slot number
+/// @param type
+/// @param recoil
+/// @param efficiency
+
+Converting GML script: ${project_dir}\scripts\enemy_detect\enemy_detect.gml
+Converted description /// @description enemy_detect(object,visibility distance,radar distance)/// @param object
+/// @param visibility distance
+/// @param radar distance
+
+Converting GML script: ${project_dir}\scripts\space_get_background_stars\space_get_background_stars.gml
+Converted description /// @description space_get_background_stars(instance id)/// @param instance id
+
+Converting GML script: ${project_dir}\scripts\space_get_nebula\space_get_nebula.gml
+Converted description /// @description space_get_nebula(instance id to retrieve from)/// @param instance id to retrieve from
+
+Converting GML script: ${project_dir}\scripts\space_matter_classify\space_matter_classify.gml
+Converted description /// @description space_matter_classify(radius)/// @param radius
+
+Converting GML script: ${project_dir}\scripts\space_matter_subclassify\space_matter_subclassify.gml
+Converted description /// @description space_matter_subclassify(type,radius,density)/// @param type
+/// @param radius
+/// @param density
+
+Converting GML script: ${project_dir}\scripts\space_set_background_stars\space_set_background_stars.gml
+Converted description /// @description space_set_background_stars(# of stars,average star radius,max distance)/// @param # of stars
+/// @param average star radius
+/// @param max distance
+
+Converting GML script: ${project_dir}\scripts\space_set_nebula\space_set_nebula.gml
+Converted builtin - line 8: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description space_set_nebula(number of layers)/// @param number of layers
+
+Converting GML script: ${project_dir}\scripts\draw_node\draw_node.gml
+Converted description /// @description draw_node(x,y,#sides,radius,color1,color2,alpha1,alpha2,branches,parent id)/// @param x
+/// @param y
+/// @param #sides
+/// @param radius
+/// @param color1
+/// @param color2
+/// @param alpha1
+/// @param alpha2
+/// @param branches
+/// @param parent id
+
+Converting GML script: ${project_dir}\scripts\button_set_circle\button_set_circle.gml
+Converted description /// @description button_set_circle(index,x,y,radius,label,active,state,kind,button pressed event #,button event #,button released event #)/// @param index
+/// @param x
+/// @param y
+/// @param radius
+/// @param label
+/// @param active
+/// @param state
+/// @param kind
+/// @param button pressed event #
+/// @param button event #
+/// @param button released event #
+
+Converting GML script: ${project_dir}\scripts\button_set_rectangle\button_set_rectangle.gml
+Converted description /// @description button_set_rectangle(x,y,width,height,label,active,state,index)/// @param x
+/// @param y
+/// @param width
+/// @param height
+/// @param label
+/// @param active
+/// @param state
+/// @param index
+
+Converting GML script: ${project_dir}\scripts\draw_button_circle\draw_button_circle.gml
+Converted description /// @description draw_button_circle(index)/// @param index
+
+Converting GML script: ${project_dir}\scripts\draw_button_rectangle\draw_button_rectangle.gml
+Converted description /// @description draw_button_rectangle(index,outline)/// @param index
+/// @param outline
+
+Converting GML script: ${project_dir}\scripts\menu_button_activate\menu_button_activate.gml
+Converted description /// @description menu_button_activate()
+
+Converting GML script: ${project_dir}\scripts\menu_button_deactivate\menu_button_deactivate.gml
+Converted description /// @description menu_button_deactivate()
+
+Converting GML script: ${project_dir}\scripts\menu_destroy\menu_destroy.gml
+Converted description /// @description menu_destroy()
+
+Converting GML script: ${project_dir}\scripts\menu_settings_init\menu_settings_init.gml
+Converted description /// @description menu_settings_init()
+
+Converting GML script: ${project_dir}\scripts\menu_settings_refresh\menu_settings_refresh.gml
+Converted description /// @description menu_settings_refresh()
+
+Converting GML script: ${project_dir}\scripts\menu_sprite\menu_sprite.gml
+Converted description /// @description menu_sprite(sprite)/// @param sprite
+
+Converting GML script: ${project_dir}\scripts\mouse_doubleclick\mouse_doubleclick.gml
+Converted description /// @description mouse_doubleclick()
+
+Converting GML script: ${project_dir}\scripts\mouse_over\mouse_over.gml
+Converted description /// @description mouse_over(x1,y1,x2,y2)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+
+Converting GML script: ${project_dir}\scripts\mouse_over_gui\mouse_over_gui.gml
+Converted description /// @description mouse_over_gui(x1,y1,x2,y2)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+
+Converting GML script: ${project_dir}\scripts\touch_button\touch_button.gml
+Converted description /// @description touch_button(button ID,input ID)/// @param button ID
+/// @param input ID
+
+Converting GML script: ${project_dir}\scripts\touch_button_pressed\touch_button_pressed.gml
+Converted description /// @description touch_button_pressed(button ID, input ID)/// @param button ID
+/// @param  input ID
+
+Converting GML script: ${project_dir}\scripts\touch_button_released\touch_button_released.gml
+Converted description /// @description touch_button_released(button ID,input ID)/// @param button ID
+/// @param input ID
+
+Converting GML script: ${project_dir}\scripts\glue_to_point\glue_to_point.gml
+Converted description /// @description glue_to_point(x,y)/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\collision_move_snap\collision_move_snap.gml
+Converted description /// @description collision_move_snap(object,radius)/// @param object
+/// @param radius
+
+Converting GML script: ${project_dir}\scripts\glue_to\glue_to.gml
+Converted description /// @description glue_to(object,offset,angle)/// @param object
+/// @param offset
+/// @param angle
+
+Converting GML script: ${project_dir}\objects\screen\Create_0.gml
+Converted description /// @description This object should be created before all others.
+
+Converting GML script: ${project_dir}\objects\screen\Draw_72.gml
+Converted description /// @description manual clearing of the screen allows for cool blurring effects without CPU impact
+
+Converting GML script: ${project_dir}\objects\screen\Draw_0.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 20: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 7: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 21: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\splash\Create_0.gml
+Converted description /// @description this controller displays a brief image for 2 seconds while loading things
+
+Converting GML script: ${project_dir}\objects\splash\Draw_64.gml
+Converted builtin - line 2: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 2: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\fx\Create_0.gml
+Converted description /// @description This controller stores and manages visual effects 
+
+Converting GML script: ${project_dir}\objects\external\Create_0.gml
+Converted description /// @description this object handles data importing and exporting
+Converted string - line 4: "\periodic_table.csv" -> "\\periodic_table.csv"
+
+Converting GML script: ${project_dir}\objects\camera\Create_0.gml
+Converted description /// @description this object handles the camera views
+
+Converting GML script: ${project_dir}\objects\camera\Alarm_0.gml
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description intermittent step
+
+Converting GML script: ${project_dir}\objects\dynamic_background\Alarm_0.gml
+Converted description /// @description intermittent step
+
+Converting GML script: ${project_dir}\objects\dynamic_background\Draw_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\hud\Draw_64.gml
+Converted builtin - line 4: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+
+Converting GML script: ${project_dir}\objects\o_magnifier\Draw_64.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\o_shockwave\Draw_64.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 2: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\o_laserturret\Alarm_0.gml
+Converted builtin - line 1: background_visible[0] -> __background_get( e__BG.Visible, 0 )
+
+Converting GML script: ${project_dir}\objects\o_lightning_magnify\Draw_64.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\o_flash\Draw_64.gml
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\o_menu_pause\Create_0.gml
+Converted description /// @description this object makes the pause work. create it by typing pause() in the code of any other object
+
+Converting GML script: ${project_dir}\objects\o_menu_pause\Draw_64.gml
+Converted builtin - line 2: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 2: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\p_player\Collision_58aaab38-6e65-494f-9644-5eb953ee6c1b.gml
+Converted description /// @description Smash through the asteroids!
+
+Converting GML script: ${project_dir}\objects\p_space_matter\Alarm_2.gml
+Converted description /// @description this code is only run by stars. it handles random spawns
+
+Converting GML script: ${project_dir}\objects\p_space_matter\Alarm_1.gml
+Converted description /// @description spawn child objects if in view and zoomed in enough
+
+Converting GML script: ${project_dir}\objects\p_space_matter\Alarm_0.gml
+Converted description /// @description collision checking
+
+Converting GML script: ${project_dir}\objects\p_space_enemy\Collision_89d58816-fb9e-49f7-acd9-13c29f37fa7c.gml
+Converted description /// @description Smash through the asteroids!
+
+Converting GML script: ${project_dir}\objects\p_selectable\Mouse_4.gml
+Converted description /// @description this is what makes an object selectable
+
+Converting GML script: ${project_dir}\objects\o_asteroid\Step_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\o_comet\Step_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\o_moon\Alarm_4.gml
+Converted description /// @description intermittent step code
+
+Converting GML script: ${project_dir}\objects\o_moon\Step_2.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\o_planet\Alarm_4.gml
+Converted description /// @description intermittent step code
+
+Converting GML script: ${project_dir}\objects\o_planet\Step_2.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\o_star\Alarm_4.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description intermittent step code
+
+Converting GML script: ${project_dir}\objects\o_star_background\Create_0.gml
+Converted description /// @description see improved version in object "dynamic_background"
+
+Converting GML script: ${project_dir}\objects\o_star_background\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\o_galaxy\Create_0.gml
+Converted description /// @description spawns a galaxy
+
+Converting GML script: ${project_dir}\objects\o_point\Alarm_0.gml
+Converted description /// @description intermittent step
+
+Converting GML script: ${project_dir}\objects\o_point\Step_0.gml
+Converted description /// @description triangle wave
+
+Converting GML script: ${project_dir}\objects\o_shield\Destroy_0.gml
+Converted description /// @description delete paths to prevent memory leak
+
+Converting GML script: ${project_dir}\objects\o_shield\Alarm_0.gml
+Converted description /// @description intermittent step code
+
+Converting GML script: ${project_dir}\objects\o_shield\Draw_64.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 21: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 22: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 32: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 18: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 21: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 22: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 32: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\o_ship\Draw_64.gml
+Converted builtin - line 1: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 1: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\o_ship\Draw_0.gml
+Converted builtin - line 19: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 20: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 21: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 22: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 23: view_wport -> __view_get( e__VW.WPort, 0 )
+
+Converting GML script: ${project_dir}\objects\o_ship_point\Step_0.gml
+Converted builtin - line 44: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 46: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 49: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 51: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\o_ship_creator\Create_0.gml
+Converted builtin - line 4: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 66: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 67: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 5: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 49: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\o_ship_creator\Draw_64.gml
+Converted builtin - line 3: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 9: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 9: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 16: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 16: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 19: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 20: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 22: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 23: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 3: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 7: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 9: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 16: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 22: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 23: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\b_ship_creator\Mouse_53.gml
+Converted description /// @description each type of button has its own event when clicked
+
+Converting GML script: ${project_dir}\objects\b_ship_creator\Other_15.gml
+Converted description /// @description cancel button
+
+Converting GML script: ${project_dir}\objects\b_ship_creator\Other_14.gml
+Converted description /// @description next button
+
+Converting GML script: ${project_dir}\objects\b_ship_creator\Other_13.gml
+Converted description /// @description connector button
+
+Converting GML script: ${project_dir}\objects\b_ship_creator\Other_12.gml
+Converted description /// @description point dragdrop
+
+Converting GML script: ${project_dir}\objects\b_ship_creator\Other_11.gml
+Converted description /// @description point dragdrop
+
+Converting GML script: ${project_dir}\objects\b_ship_creator\Other_10.gml
+Converted description /// @description point dragdrop
+
+Converting GML script: ${project_dir}\objects\o_astroswarm\Alarm_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\o_astroparticle\Alarm_0.gml
+Converted description /// @description alarm and dice are used to greatly reduce CPU impact.
+
+Converting GML script: ${project_dir}\objects\o_worm\Alarm_0.gml
+Converted description /// @description intermittent step
+
+Missing audiogroup for sound: 'snd_mouseover' - setting to default audio group
+Missing audiogroup for sound: 'snd_click' - setting to default audio group
+Missing audiogroup for sound: 'snd_rumble' - setting to default audio group
+Missing audiogroup for sound: 'snd_bass' - setting to default audio group
+Missing audiogroup for sound: 'snd_beat' - setting to default audio group
+Missing audiogroup for sound: 'snd_flute' - setting to default audio group
+Missing audiogroup for sound: 'snd_pattern1' - setting to default audio group
+Missing audiogroup for sound: 'snd_pattern2' - setting to default audio group
+Missing audiogroup for sound: 'snd_rattle' - setting to default audio group
+Missing audiogroup for sound: 'snd_snare' - setting to default audio group
+Missing audiogroup for sound: 'snd_string1' - setting to default audio group
+Missing audiogroup for sound: 'snd_string2' - setting to default audio group
+Missing audiogroup for sound: 'snd_tone1' - setting to default audio group
+Added compatibility script 'background/background_get_texture.gml'
+Added compatibility script 'background/draw_background_ext.gml'
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'sound/sound_play.gml'
+Added compatibility script 'texture/texture_set_repeat.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
