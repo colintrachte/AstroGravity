@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ship_list_import_2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ship_list_import_2",
+  "parent":{
+    "name":"Ship",
+    "path":"folders/Scripts/Ship.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

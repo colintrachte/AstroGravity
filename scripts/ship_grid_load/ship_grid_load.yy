@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ship_grid_load",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ship_grid_load",
+  "parent":{
+    "name":"Ship",
+    "path":"folders/Scripts/Ship.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"path_circle_break",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"path_circle_break",
+  "parent":{
+    "name":"Path",
+    "path":"folders/Scripts/Path.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

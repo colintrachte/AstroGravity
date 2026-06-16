@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rock_break",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rock_break",
+  "parent":{
+    "name":"Rocks",
+    "path":"folders/Scripts/Rocks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

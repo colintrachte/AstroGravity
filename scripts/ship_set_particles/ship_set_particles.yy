@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ship_set_particles",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ship_set_particles",
+  "parent":{
+    "name":"Ship",
+    "path":"folders/Scripts/Ship.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

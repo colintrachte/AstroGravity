@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_path_gradient",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_path_gradient",
+  "parent":{
+    "name":"Lines",
+    "path":"folders/Scripts/Draw/Lines.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

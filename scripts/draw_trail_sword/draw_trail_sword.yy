@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_trail_sword",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_trail_sword",
+  "parent":{
+    "name":"Lines",
+    "path":"folders/Scripts/Draw/Lines.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

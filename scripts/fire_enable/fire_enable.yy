@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fire_enable",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fire_enable",
+  "parent":{
+    "name":"Fire",
+    "path":"folders/Scripts/Effects/Fire.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

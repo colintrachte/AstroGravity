@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"random_halton",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"random_halton",
+  "parent":{
+    "name":"Random",
+    "path":"folders/Scripts/Random.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

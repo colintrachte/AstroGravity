@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rock_sprite_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rock_sprite_create",
+  "parent":{
+    "name":"Rocks",
+    "path":"folders/Scripts/Rocks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

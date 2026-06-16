@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_magnify",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_magnify",
+  "parent":{
+    "name":"Magnify",
+    "path":"folders/Scripts/Draw/Magnify.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

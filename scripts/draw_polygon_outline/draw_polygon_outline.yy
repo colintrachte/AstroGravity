@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_polygon_outline",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_polygon_outline",
+  "parent":{
+    "name":"Circle",
+    "path":"folders/Scripts/Draw/Circle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

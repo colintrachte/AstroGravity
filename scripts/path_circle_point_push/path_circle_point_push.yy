@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"path_circle_point_push",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"path_circle_point_push",
+  "parent":{
+    "name":"Path",
+    "path":"folders/Scripts/Path.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

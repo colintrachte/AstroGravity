@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"math_orbital_velocity",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"math_orbital_velocity",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/Math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

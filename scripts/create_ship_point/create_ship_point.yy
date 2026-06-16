@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_ship_point",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_ship_point",
+  "parent":{
+    "name":"Create",
+    "path":"folders/Scripts/Create.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

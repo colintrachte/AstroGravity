@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"space_set_background_stars",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"space_set_background_stars",
+  "parent":{
+    "name":"Space",
+    "path":"folders/Scripts/Space.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

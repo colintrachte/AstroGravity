@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"selected_get_nearest",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"selected_get_nearest",
+  "parent":{
+    "name":"Camera",
+    "path":"folders/Scripts/Camera.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

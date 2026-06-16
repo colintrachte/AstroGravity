@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_space_matter",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_space_matter",
+  "parent":{
+    "name":"Create",
+    "path":"folders/Scripts/Create.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

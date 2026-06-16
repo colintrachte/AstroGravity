@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"glue_to_point",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"glue_to_point",
+  "parent":{
+    "name":"Movement",
+    "path":"folders/Scripts/Movement.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

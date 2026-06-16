@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fire_die",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fire_die",
+  "parent":{
+    "name":"Fire",
+    "path":"folders/Scripts/Effects/Fire.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

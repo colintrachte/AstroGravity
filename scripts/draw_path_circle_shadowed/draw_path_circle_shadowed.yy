@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_path_circle_shadowed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_path_circle_shadowed",
+  "parent":{
+    "name":"Circle",
+    "path":"folders/Scripts/Draw/Circle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

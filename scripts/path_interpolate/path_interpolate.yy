@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"path_interpolate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"path_interpolate",
+  "parent":{
+    "name":"Path",
+    "path":"folders/Scripts/Path.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

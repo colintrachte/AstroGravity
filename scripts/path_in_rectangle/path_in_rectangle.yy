@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"path_in_rectangle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"path_in_rectangle",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/Math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"math_centripetal_accel",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"math_centripetal_accel",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/Math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

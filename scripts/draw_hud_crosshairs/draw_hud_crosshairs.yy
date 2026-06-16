@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_hud_crosshairs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_hud_crosshairs",
+  "parent":{
+    "name":"HUD",
+    "path":"folders/Scripts/Draw/HUD.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

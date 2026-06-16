@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_magnify_path_circle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_magnify_path_circle",
+  "parent":{
+    "name":"Magnify",
+    "path":"folders/Scripts/Draw/Magnify.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

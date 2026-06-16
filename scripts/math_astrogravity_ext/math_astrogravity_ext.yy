@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"math_astrogravity_ext",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"math_astrogravity_ext",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/Math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

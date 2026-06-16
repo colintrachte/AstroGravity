@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"import_csv",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"import_csv",
+  "parent":{
+    "name":"Inventory",
+    "path":"folders/Scripts/Inventory.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_ring_shadowed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_ring_shadowed",
+  "parent":{
+    "name":"Ring",
+    "path":"folders/Scripts/Draw/Ring.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

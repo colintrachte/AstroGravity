@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"math_fade",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"math_fade",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/Math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

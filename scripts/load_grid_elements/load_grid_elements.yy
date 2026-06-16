@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"load_grid_elements",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"load_grid_elements",
+  "parent":{
+    "name":"Load",
+    "path":"folders/Scripts/Load.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"space_get_nebula",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"space_get_nebula",
+  "parent":{
+    "name":"Space",
+    "path":"folders/Scripts/Space.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

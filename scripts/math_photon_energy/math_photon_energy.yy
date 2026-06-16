@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"math_photon_energy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"math_photon_energy",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/Math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

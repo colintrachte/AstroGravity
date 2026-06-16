@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_hud_target",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_hud_target",
+  "parent":{
+    "name":"HUD",
+    "path":"folders/Scripts/Draw/HUD.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

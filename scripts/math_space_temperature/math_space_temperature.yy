@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"math_space_temperature",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"math_space_temperature",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/Math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

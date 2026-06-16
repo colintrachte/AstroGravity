@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"load_particles_water",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"load_particles_water",
+  "parent":{
+    "name":"Load",
+    "path":"folders/Scripts/Load.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

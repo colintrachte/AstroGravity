@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_path_sphere_ext",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_path_sphere_ext",
+  "parent":{
+    "name":"Sphere",
+    "path":"folders/Scripts/Draw/Sphere.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

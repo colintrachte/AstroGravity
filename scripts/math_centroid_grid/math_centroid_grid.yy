@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"math_centroid_grid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"math_centroid_grid",
+  "parent":{
+    "name":"centroid",
+    "path":"folders/Scripts/Math/centroid.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

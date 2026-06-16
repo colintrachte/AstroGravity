@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_effect_cloak",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_effect_cloak",
+  "parent":{
+    "name":"Invisibility",
+    "path":"folders/Scripts/Effects/Invisibility.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

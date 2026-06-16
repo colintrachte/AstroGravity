@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_text_blur",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_text_blur",
+  "parent":{
+    "name":"Text",
+    "path":"folders/Scripts/Draw/Text.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

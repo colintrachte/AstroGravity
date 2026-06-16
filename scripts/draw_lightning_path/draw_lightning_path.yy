@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_lightning_path",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_lightning_path",
+  "parent":{
+    "name":"Lightning",
+    "path":"folders/Scripts/Draw/Lightning.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

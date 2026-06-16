@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"space_matter_subclassify",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"space_matter_subclassify",
+  "parent":{
+    "name":"Space",
+    "path":"folders/Scripts/Space.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

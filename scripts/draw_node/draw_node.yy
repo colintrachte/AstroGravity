@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_node",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_node",
+  "parent":{
+    "name":"Station",
+    "path":"folders/Scripts/Space/Station.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

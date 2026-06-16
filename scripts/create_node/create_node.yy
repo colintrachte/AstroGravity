@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_node",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_node",
+  "parent":{
+    "name":"Station",
+    "path":"folders/Scripts/Space/Station.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
