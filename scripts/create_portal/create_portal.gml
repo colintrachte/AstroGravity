@@ -5,15 +5,15 @@
 /// @param scale
 /// @param seconds to stay open
 /// @param color
-function create_portal(x, y, object, scale, seconds, color) {
-	with instance_create(x,y,o_portal)
+function create_portal(argument0, argument1, argument2, argument3, argument4, argument5) {
+	with instance_create(argument0,argument1,o_portal)
 	{
 	    sprite_index=sp_spiral;
-	    endcreate=object;
-	    scale=scale;
-	    alarm0=seconds;
+	    endcreate=argument2;
+	    scale=argument3;
+	    alarm0=argument4;
 	    closeportal=0;
-	    image_blend=color;
+	    image_blend=argument5;
 	    image_xscale=0.05;
 	    cloudangle=0;
 	    donecreating=0;

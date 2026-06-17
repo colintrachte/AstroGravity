@@ -1,4 +1,4 @@
-if room=room_first
+if (room==rm_start)
 {
     room_goto_next()
     if instance_exists(music_demo)

@@ -15,7 +15,7 @@ if (!spawned_children)
                     var delta,min_radius;
                     delta=global.delta_planet_radius;
                     min_radius=global.min_planet_radius;
-                    for (var i=1; i<=child_count; i+=1)
+                    for (i=1; i<=child_count; i+=1)
                     {
                         j=i/child_count;
                         create_space_matter(random_squared(delta*j)+min_radius,.05+random_squared(.1),sign(spin)*(10+random(20)),system_spacing*i+random_increase(radius,.5),random(360))
@@ -30,7 +30,7 @@ if (!spawned_children)
                 {
                     //planets will have moons or rings, not both.
                     var moon_type=choose(1,0);
-                    for (var i=1; i<child_count; i+=1)
+                    for (i=1; i<child_count; i+=1)
                     {
                         if moon_type
                         {

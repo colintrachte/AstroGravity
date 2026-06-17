@@ -16,7 +16,7 @@ zoom_max=150;
 zoom_min=.4;
 zoom_rate=.1;
 
-if (room==room_first)
+if (room==rm_start)
 {
     zoom=zoom_max;
     zoom_target=2;

@@ -57,7 +57,7 @@ margin[4]=margin[0]*.5;
 b[0]=create_button_shipcreator(margin[1],margin[2],margin[0],c[0],0,label[0],tooltip[0]);
 b[0].visible=0;
 
-for (var i=1;i<4;i+=1)
+for (i=1;i<4;i+=1)
 {
     b[i]=create_button_shipcreator(margin[1],margin[2]*i,margin[0],c[i],i,label[i],tooltip[i]);
 }

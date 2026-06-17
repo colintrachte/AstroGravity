@@ -4,14 +4,14 @@
 /// @param radius
 /// @param material
 /// @param color
-function create_ship_point(x, y, radius, material, color) {
-	var object=instance_create(x,y,o_ship_point);
+function create_ship_point(argument0, argument1, argument2, argument3, argument4) {
+	var object=instance_create(argument0,argument1,o_ship_point);
 	with object
 	{
 	    parent_id=other.id;
-	    radius=radius;
-	    material=material;
-	    image_blend=color;
+	    radius=argument2;
+	    material=argument3;
+	    image_blend=argument4;
 	    image_scale(radius/16)
 	    friction=.5;
 	    dragdrop=1;

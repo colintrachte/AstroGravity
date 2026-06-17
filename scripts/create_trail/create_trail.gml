@@ -11,27 +11,27 @@
 /// @param  color
 /// @param  alpha
 /// @param sword
-function create_trail(x, y, number, smooth, update, number_5, starting, ending, sprite, color, alpha, sword) {
+function create_trail(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10, argument11) {
 	//By Ground Effect Games
 	//trail length is a result of how many points there are in the path, and how often you update them
 	var trail = instance_create(x,y,o_trail)
 	with trail
 	{
-	    trail_xoffset=x;
-	    trail_yoffset=y;
-	    trail_offset=point_distance(0,0,x,y);
-	    trail_angle_offset=point_direction(0,0,x,y);
+	    trail_xoffset=argument0;
+	    trail_yoffset=argument1;
+	    trail_offset=point_distance(0,0,argument0,argument1);
+	    trail_angle_offset=point_direction(0,0,argument0,argument1);
 	    trail_object=other.id;
-	    trail_path_create(number,smooth)
-	    trail_rate=update;//interval, in seconds, between updates of the trail
+	    trail_path_create(argument2,argument3)
+	    trail_rate=argument4;//interval, in seconds, between updates of the trail
 	    trail_alarm0=0;//this alarm uses delta time for trail updates
-	    trail_segments=number_5;
-	    trail_startwidth=starting;
-	    trail_endwidth=ending;
-	    trail_texture=sprite_get_texture(sprite,0)
-	    image_blend=color;
-	    image_alpha=alpha;
-	    sword=sword;
+	    trail_segments=argument5;
+	    trail_startwidth=argument6;
+	    trail_endwidth=argument7;
+	    trail_texture=sprite_get_texture(argument8,0)
+	    image_blend=argument9;
+	    image_alpha=argument10;
+	    sword=argument11;
 	}
 	return trail;
 

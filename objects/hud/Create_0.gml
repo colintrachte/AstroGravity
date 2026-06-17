@@ -1,5 +1,5 @@
 live_s=3;
-points=0;
+global.game_score=0;
 radius=64;
 sides=3;
 object_set_material(1,1,1)

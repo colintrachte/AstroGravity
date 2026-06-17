@@ -6,18 +6,18 @@
 /// @param action #
 /// @param label
 /// @param tutorial
-function create_button_shipcreator(x, y, radius, color, action, label, tutorial) {
-	button=instance_create(x,y,b_ship_creator);
+function create_button_shipcreator(argument0, argument1, argument2, argument3, argument4, argument5, argument6) {
+	button=instance_create(argument0,argument1,b_ship_creator);
 	with button
 	{
 	    parent_id=other.id;
-	    radius=radius;
+	    radius=argument2;
 	    image_scale(radius/16)
-	    image_blend=color;
-	    action=action;
-	    label=label;
+	    image_blend=argument3;
+	    action=argument4;
+	    label=argument5;
 	    selected=0;
-	    tutorial=tutorial;
+	    tutorial=argument6;
 	    event[0]=ev_user0;
 	    event[1]=ev_user1;
 	    event[2]=ev_user2;

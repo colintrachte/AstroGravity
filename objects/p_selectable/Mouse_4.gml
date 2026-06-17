@@ -14,13 +14,13 @@ with hud
 {
     object_get_material(other)
     
-    var i,len,delta,dir,r;
+    var i,array_len,delta,dir,r;
 
     path_clear_points(material_path)
     path_set_kind(material_path,0)
-    len=array_length(material);
-    delta=360/len;
-    for (i=0;i<len;i+=1)
+    array_len=array_length(material);
+    delta=360/array_len;
+    for (i=0;i<array_len;i+=1)
     {
         r=material[i]*radius;
         dir=i*delta+90;

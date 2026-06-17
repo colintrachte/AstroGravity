@@ -3,7 +3,7 @@ with p_player
 {
     draw_spectrum(0,0,__view_get( e__VW.WPort, 0 )*percent_energy,18,0,212.5*percent_energy,1,0)
     //lives
-    for (var i=0;i<live_s;i+=1)
+    for (i=0;i<live_s;i+=1)
     {
         draw_polygon(10+i*20,8,8,4,0,c_black,c_white,1,.5)
         draw_polygon_outline(10+i*20,8,8,4,0,c_black,.6)
@@ -28,9 +28,7 @@ if !instance_exists(p_ship_creator)
     draw_set_color(material_color)
     draw_path_line(material_path,radius,200)
     draw_set_color(c_white)
-	var dotx = 200+math_xcentroid_path(material_path);
-	var doty = 200+math_ycentroid_path(material_path);
-    draw_dot(dotx,doty,3,c_gray,material_color,.9,.8)
+    draw_dot(radius+math_xcentroid_path(material_path),200+math_ycentroid_path(material_path),3,c_gray,material_color,.9,.8)
 
     //points
     draw_hud_points(24,272,16,.9)

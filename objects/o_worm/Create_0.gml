@@ -29,7 +29,7 @@ path=path_add();
 path_set_closed(path,false)
 path_add_point(path,x,y,1)
 seg[0]=id;
-for (var i=1;i<8;i+=1)
+for (i=1;i<8;i+=1)
 {
     seg[i]=instance_create(x,y,o_worm_seg);
     path_add_point(path,x,y,1)

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"space_get_level",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"space_get_level",
+  "parent":{
+    "name":"Space",
+    "path":"folders/Scripts/Space.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

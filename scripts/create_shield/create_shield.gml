@@ -11,30 +11,30 @@
 /// @param regen rate
 /// @param color
 /// @param update_speed
-function create_shield(x, y, rotation, layers, sections, inner, radius, spacing, texture, regen, color, update_speed) {
+function create_shield(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10, argument11) {
 	//By Ground Effect Games
 	//
-	var shield=instance_create(x+x,y+y,o_shield)
+	var shield=instance_create(x+argument0,y+argument1,o_shield)
 	with shield
 	{
 	    parent_id=other.id;
 	    //positioning
-	    xoffset=x;
-	    yoffset=y;
+	    xoffset=argument0;
+	    yoffset=argument1;
 	    offset=point_distance(0,0,xoffset,yoffset);
 	    offset_angle=point_direction(0,0,xoffset,yoffset);
 	    //shield properties
-	    rot_offset=rotation;
-	    layers=layers;
-	    sections=sections;
-	    inner_radius=inner;
-	    thickness=radius;
-	    spacing=spacing;
-	    texture1=texture;
-	    regen=regen;
-	    color=color;
+	    rot_offset=argument2;
+	    layers=argument3;
+	    sections=argument4;
+	    inner_radius=argument5;
+	    thickness=argument6;
+	    spacing=argument7;
+	    texture1=argument8;
+	    regen=argument9;
+	    color=argument10;
 	    image_blend=color;
-	    update_speed=update_speed;
+	    update_speed=argument11;
 	    mask_index=other.sprite_index;
     
 	    //for example, if there are 4 sections, each section is 90 degrees.
@@ -56,7 +56,7 @@ function create_shield(x, y, rotation, layers, sections, inner, radius, spacing,
 	        }
 	    }
     
-	    if (surface_exists(application_surface)) texture=surface_get_texture(application_surface);
+	    texture=surface_get_texture(application_surface);
 	    ready=0;
 	    alarm[0]=update_speed;
 	    alarm[1]=(update_speed/3)+random(update_speed);

@@ -4,18 +4,18 @@
 /// @param spin
 /// @param orbit radius
 /// @param orbit angle
-function create_space_matter(radius, variance, spin, orbit, orbit_4) {
+function create_space_matter(argument0, argument1, argument2, argument3, argument4) {
 	//By Ground Effect Games
 	//variance is the percentage by which some other variables are randomized.
 	//this is the script for creating all objects with parent p_space_matter
 
 	//figure out where to create the object
 	var xx,yy;
-	xx=x+lengthdir_x(orbit,orbit_4);
-	yy=y+lengthdir_y(orbit,orbit_4);
+	xx=x+lengthdir_x(argument3,argument4);
+	yy=y+lengthdir_y(argument3,argument4);
 
 	//figure out what type of object to create depending on global settings in load_globals()
-	switch space_matter_classify(radius)
+	switch space_matter_classify(argument0)
 	{
 	    //I have organized this list from largest to smallest
 	    case "nebula":  {body=instance_create(xx,yy,o_nebula);} break;
@@ -32,7 +32,7 @@ function create_space_matter(radius, variance, spin, orbit, orbit_4) {
 	    //Everything before the switch/case structure is default settings
     
 	    //identities and spawns
-	    type=space_matter_classify(radius);
+	    type=space_matter_classify(argument0);
 	    parent_id=other.id;
 	    galaxy_id=instance_nearest(x,y,o_galaxy);
 	        //default setting is to not spawn anything
@@ -42,23 +42,23 @@ function create_space_matter(radius, variance, spin, orbit, orbit_4) {
 	    selected=0;
     
 	    //physics
-	    radius=radius;
+	    radius=argument0;
 	    diameter=radius*2;
 	    twopi=6.283185;
-	    //area=twopi*sqr(radius);
+	    area=twopi*sqr(radius);
 	    volume=math_get_volume(radius,radius,1);//volume is technically m^3, where 1 pixel=1 meter, but planets are not simulated to scale.
 	    density=(.5+random(7))*1000;//this is a realistic range, in kg/m^3. Earth is ~5500.
 	    mass=volume*density;
 	    image_scale(diameter/(1+sprite_width))
 	        //spin is how many degrees to rotate every second, varied by variance
-	    spin=spin+tolerance(spin*variance);
-	    orbit_radius=orbit;
-	    orbit_angle=orbit_4;
+	    spin=argument2+tolerance(argument2*argument1);
+	    orbit_radius=argument3;
+	    orbit_angle=argument4;
 	    orphan=!instance_exists(parent_id);
     
 	    if orbit_radius
 	    {
-	        var velocity_angle, vx, vy, t1, t2, GM, eccX, eccY, ke;
+	        var velocity, velocity_angle, vx, vy, t1, t2, GM, eccX, eccY, ke;
         
 	        orbit_path = path_add();
         
@@ -130,7 +130,7 @@ function create_space_matter(radius, variance, spin, orbit, orbit_4) {
 	    segments=1;
 	        //the inner radius is varied by variance
 	    path=path_add();
-	    path_random_circle(path,0,0,radius*(1-variance),radius,0,radius,1,1);
+	    path_random_circle(path,0,0,radius*(1-argument1),radius,0,radius,1,1);
 	    image_angle+=depth*2;
 	    path_rotate(path,-depth*2);
 	    exclamation=1;
@@ -142,7 +142,8 @@ function create_space_matter(radius, variance, spin, orbit, orbit_4) {
 	        case "nebula":
 	        {
             
-	        } break;
+	        }
+	        break;
         
 	        case "star":
 	        {
@@ -157,14 +158,14 @@ function create_space_matter(radius, variance, spin, orbit, orbit_4) {
 	            switch subtype
 	            {
 	                case "black hole": {visible=false;} break;
-	                case "red giant":  {color=c_red} break;
+	                case "red giant":  {color=red} break;
 	                case "binary":  {visible=false;image_scale(0);} break;
 	                case "white dwarf":  {color=c_white;} break;
 	                case "red dwarf": {color=c_red;} break;
 	                case "regular":  {} break;
 	            }
 	            //pulsars mostly occur at high densities, but there are rare exceptions.
-	            //pulsar=random_dice(100000/density);
+	            pulsar=random_dice(100000/density);
             
 	            //in order to reduce the distances between stars and planets,
 	            //gravity is calculated using sprite size, not mass.

@@ -1,4 +1,4 @@
-if (room==room_first)
+if (room==rm_start)
 {
     click_to_continue=1;
 }

@@ -18,7 +18,7 @@ diag=sqrt(sqr(width/2)+sqr(height/2));//diagonal half radius of the screen (good
 
 screen_set_resolution(width,height,0)
 alarm[0]=5;
-if (surface_exists(application_surface)) texture=surface_get_texture(application_surface);
+texture=surface_get_texture(application_surface);
 load_globals()
 create(fx)
 create(external)

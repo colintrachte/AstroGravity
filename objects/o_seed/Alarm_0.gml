@@ -1,6 +1,6 @@
 if branches>0
 {
-    for (var i=0;i<360;i+=360/branches)
+    for (i=0;i<360;i+=360/branches)
     {
         create_node()
     }

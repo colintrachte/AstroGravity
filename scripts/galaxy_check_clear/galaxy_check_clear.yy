@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"galaxy_check_clear",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"galaxy_check_clear",
+  "parent":{
+    "name":"Space",
+    "path":"folders/Scripts/Space.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

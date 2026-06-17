@@ -5,13 +5,13 @@
 /// @param scale
 /// @param scale increase
 /// @param spin
-function effect_exclamation(x, y, string, scale, scale_4, spin) {
-	with instance_create(x,y,o_exclamation)
+function effect_exclamation(argument0, argument1, argument2, argument3, argument4, argument5) {
+	with instance_create(argument0,argument1,o_exclamation)
 	{
-	    s=string;
-	    scale=scale;
-	    scale_rate=scale_4;
-	    spin=spin;
+	    s=argument2;
+	    scale=argument3;
+	    scale_rate=argument4;
+	    spin=argument5;
 	}
 
 

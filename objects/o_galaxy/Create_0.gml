@@ -15,7 +15,7 @@ delta=1.9*arms/star_count;
 delta2=two_pi/arms;
 
 //change the angle from center
-for (var theta=.1; theta<=2; theta+=delta;)
+for (theta=.1; theta<=2; theta+=delta;)
 {
     //place one star in each arm
     for (i=0; i<two_pi; i+=delta2)

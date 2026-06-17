@@ -17,7 +17,7 @@ alarm[1]=600+random(600);
 weighting=0;
 width=random_decrease(radius,.5);
 seglength=width*2;
-for (var i=0;i<2;i+=1)
+for (i=0;i<2;i+=1)
 {
     path[i]=path_add();
     path_set_kind(path[i],1);

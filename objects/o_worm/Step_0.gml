@@ -4,7 +4,7 @@ direction+=sin(current_time*speed/1000)*50/(1+speed);
 //update the path used for drawing the worm
 path_change_point(path,9,x+lengthdir_x(104*image_xscale*.5,image_angle),y+lengthdir_y(104*image_xscale*.5,image_angle),1)
 path_change_point(path,8,x,y,1)
-for (var i=1;i<8;i+=1)
+for (i=1;i<8;i+=1)
 {
     path_change_point(path,i,seg[8-i].x,seg[8-i].y,1)
 }

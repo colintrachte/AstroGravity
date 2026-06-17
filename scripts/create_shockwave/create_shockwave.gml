@@ -11,22 +11,22 @@
 /// @param color2
 /// @param color3
 /// @param alpha
-function create_shockwave(x, y, start, path_end, update, expansion, spin, twist, color1, color2, color3, alpha) {
-	var shockwave=instance_create(x,y,o_shockwave)
+function create_shockwave(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10, argument11) {
+	var shockwave=instance_create(argument0,argument1,o_shockwave)
 	with shockwave
 	{
-	    radius=start;
-	    targetradius=path_end;
-	    update_speed=update;
+	    radius=argument2;
+	    targetradius=argument3;
+	    update_speed=argument4;
 	    alarm[0]=update_speed;
-	    sp=expansion;
-	    spin=spin;
-	    twist=twist;
-	    c1=color1;
-	    c2=color2;
-	    c3=color3;
-	    image_alpha=alpha;
-	    //debug=0;
+	    sp=argument5;
+	    spin=argument6;
+	    twist=argument7;
+	    c1=argument8;
+	    c2=argument9;
+	    c3=argument10;
+	    image_alpha=argument11;
+	    debug=0;
 	}
 	return shockwave;
 

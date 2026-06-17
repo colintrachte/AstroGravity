@@ -9,7 +9,7 @@ s=minlimit;
 targets=defaultvalue;
 image_alpha=.8;
 ly=yy+minlimit;
-for (var i=0;i<4;i+=1)
+for (i=0;i<4;i+=1)
 {
     w[i]=power(2,i+3)*o_ship_creator.scale;
 }
